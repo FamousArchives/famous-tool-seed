@@ -1,3 +1,4 @@
+'use strict';
 var test = require('tape');
 var spawn = require('child_process').spawn;
 var path = require('path');
@@ -9,8 +10,8 @@ test('bin', function (t) {
     var ps = spawn(binPath);
     var stdout = '';
     var stderr = '';
-    ps.stdout.on('data', function (buf) { stdout += buf });
-    ps.stderr.on('data', function (buf) { stderr += buf });
+    ps.stdout.on('data', function (buf) { stdout += buf; });
+    ps.stderr.on('data', function (buf) { stderr += buf; });
 
     ps.on('exit', function (code) {
         t.equal(code, 0);

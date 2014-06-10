@@ -3,12 +3,15 @@
   "version": "0.0.0",
   "description": "Base Famo.us NodeJS Module",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/famous/famous-node-module.git"
+  },
   "scripts": {
     "test": "./node_modules/tap/bin/tap.js test/*.js",
     "watch": "./node_modules/nodemon/bin/nodemon.js --ignore node_modules/ -e js,json --exec 'npm test'"
   },
   "author": "Andrew de Andrade <andrew@famo.us>",
-  "license": "TBD",
   "devDependencies": {
     "nodemon": "^1.2.0",
     "tap": "^0.4.11",
@@ -19,5 +22,17 @@
   },
   "bin": {
     "famous-command": "bin/cmd.js"
-  }
+  },
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "readme": "README.markdown",
+  "engines": {
+    "node": ">=0.10.28",
+    "npm": ">=1.4.10"
+  },
+  "license": "TBD",
 }

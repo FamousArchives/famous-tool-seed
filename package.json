@@ -14,13 +14,13 @@
   },
   "author": "Andrew de Andrade <andrew@famo.us>",
   "devDependencies": {
-    "eslint": "^0.6.2",
-    "nodemon": "^1.2.0",
-    "tap": "^0.4.11",
-    "tape": "^2.13.2"
+    "eslint": "^0.7.4",
+    "nodemon": "^1.2.1",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
   },
   "dependencies": {
-    "minimist": "^0.1.0"
+    "minimist": "^0.2.0"
   },
   "bin": {
     "famous-command": "bin/cmd.js"

@@ -1,11 +1,11 @@
 {
-  "name": "famous-node-module",
+  "name": "famous-tool-seed",
   "version": "0.0.0",
   "description": "Base Famo.us NodeJS Module",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/famous/famous-node-module.git"
+    "url": "git://github.com/famous/famous-tool-seed.git"
   },
   "scripts": {
     "test": "npm run-script lint; tap test/*.js",
@@ -16,14 +16,13 @@
   "devDependencies": {
     "eslint": "^0.7.4",
     "nodemon": "^1.2.1",
-    "tap": "^0.4.12",
-    "tape": "^2.14.0"
+    "tap": "^0.4.12"
   },
   "dependencies": {
     "minimist": "^0.2.0"
   },
   "bin": {
-    "famous-command": "bin/cmd.js"
+    "famous-tool-seed": "bin/cmd.js"
   },
   "preferGlobal": "true",
   "directories": {

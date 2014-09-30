@@ -8,7 +8,7 @@
     "url": "git://github.com/famous/famous-tool-seed.git"
   },
   "scripts": {
-    "test": "npm run-script lint && tap test/*.js",
+    "test": "npm run-script lint && tape test/*.js | tap-spec",
     "watch": "nodemon --ignore node_modules/ -e js,json --exec 'npm test'",
     "lint": "eslint **/*.js"
   },
@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^0.8.2",
     "nodemon": "^1.2.1",
+    "tap-spec": "^1.0.0",
     "tape": "^3.0.0"
   },
   "dependencies": {

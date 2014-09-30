@@ -16,7 +16,7 @@
   "devDependencies": {
     "eslint": "^0.8.2",
     "nodemon": "^1.2.1",
-    "tap": "^0.4.12"
+    "tape": "^3.0.0"
   },
   "dependencies": {
     "minimist": "^1.1.0"
@@ -30,7 +30,6 @@
     "lib": "./lib",
     "test": "./test"
   },
-  "readme": "README.markdown",
   "engines": {
     "node": ">=0.10.28",
     "npm": ">=1.4.10"

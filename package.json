@@ -8,7 +8,7 @@
     "url": "git://github.com/famous/famous-tool-seed.git"
   },
   "scripts": {
-    "test": "npm run-script lint; tap test/*.js",
+    "test": "npm run-script lint && tap test/*.js",
     "watch": "nodemon --ignore node_modules/ -e js,json --exec 'npm test'",
     "lint": "eslint **/*.js"
   },

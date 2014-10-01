@@ -1,6 +1,6 @@
 {
   "name": "famous-tool-seed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Base Famo.us NodeJS Module",
   "main": "./lib/index.js",
   "repository": {

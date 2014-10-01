@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/famous/famous-tool-seed.git"
+    "url": "git://github.com/FamousTools/famous-tool-seed.git"
   },
   "scripts": {
     "test": "npm run-script lint && tape test/*.js | tap-spec",

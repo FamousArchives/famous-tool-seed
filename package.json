@@ -25,7 +25,6 @@
   "bin": {
     "famous-tool-seed": "bin/cmd.js"
   },
-  "preferGlobal": "true",
   "directories": {
     "bin": "./bin",
     "lib": "./lib",

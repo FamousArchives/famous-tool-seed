@@ -12,12 +12,15 @@
     "watch": "nodemon --ignore node_modules/ -e js,json --exec 'npm test'",
     "lint": "eslint **/*.js"
   },
-  "author": "Andrew de Andrade <andrew@famo.us>",
+  "authors": [
+    "Andrew de Andrade <andrew@famo.us>",
+    "Myles Borins <myles@famo.us>"
+  ],
   "devDependencies": {
-    "eslint": "^0.13.0",
+    "eslint": "^0.20.0",
     "nodemon": "^1.2.1",
-    "tap-spec": "^2.1.1",
-    "tape": "^3.0.0"
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
   },
   "dependencies": {
     "minimist": "^1.1.0"
